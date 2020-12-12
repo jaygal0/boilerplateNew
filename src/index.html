@@ -3,12 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon" />
-    <link rel="stylesheet" href="/assets/app.css" />
-    <script defer src="/assets/app.js"></script>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/app.css" />
+    <script src="https://use.fontawesome.com/2c13c7a315.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"
+    ></script>
+    <script defer src="./assets/bundle.js"></script>
     <title>Title</title>
   </head>
-  <body>
+  <body data-barba="wrapper">
+    <div data-barba="container" class="container"></div>
     <header></header>
     <main>
       <h1>hello world</h1>
